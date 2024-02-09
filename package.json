@@ -1,0 +1,27 @@
+{
+    "name": "cybersplunk",
+    "version": "1.0.0",
+    "description": "Cybersplunk is a cyber security consultancy firm that offers consultation services to businesses and company  to protect their data and finance.",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "author": "Cidusface Technology",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "connect-flash": "^0.1.1",
+        "dotenv": "^16.4.1",
+        "express": "^4.17.1",
+        "express-ejs-layouts": "^2.5.1",
+        "express-session": "^1.17.2",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^6.0.6",
+        "nodemon": "^2.0.12",
+        "passport": "^0.7.0",
+        "passport-local": "^1.0.0",
+        "validator": "^13.11.0"
+    }
+}

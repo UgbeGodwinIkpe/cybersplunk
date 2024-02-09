@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Responsive Drop Down Navigation Menu | CodingLab </title>
+    <link rel="stylesheet" href="navabar.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
+        <a href="/" class="navbar-brand p-0">
+            <h1 class="m-0 text-uppercase text-primary"><i class="fa fa-lock text-primary me-2"></i>Cybersplunk</h1>
+        </a>
+        <button class="navbar-toggler btn-primary active" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0 me-n3">
+                <a href="/" class="nav-item nav-link active">Home</a>
+                <a href="/about-us" class="nav-item nav-link text-primary">About</a>
+                <a href="/service" class="nav-item nav-link text-primary">Service</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle text-primary" data-bs-toggle="dropdown">Others</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="/blog" class="dropdown-item text-primary">Blog</a>
+                        <!-- <a href="detail.html" class="dropdown-item">Blog Detail</a> -->
+                        <a href="/feature" class="dropdown-item text-primary">Features</a>
+                        <a href="/quote" class="dropdown-item text-primary">Quote Form</a>
+                        <a href="/team" class="dropdown-item text-primary">The Team</a>
+                        <!-- <a href="testimonial.html" class="dropdown-item">Testimonial</a> -->
+                    </div>
+                </div>
+                <a href="/contact" class="nav-item nav-link text-primary">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    <nav>
+        <div class="navbar">
+            <i class='bx bx-menu'></i>
+            <div class="logo text-uppercase"><a href="/"><i class="fa fa-lock text-primary me-2"></i>CYBERSPLUNK</a></div>
+            <div class="nav-links">
+                <div class="sidebar-logo">
+                    <span class="logo-name text-uppercase">CYBERSPLUNK</span>
+                    <i class='bx bx-x'></i>
+                </div>
+                <ul class="links">
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/about-us">ABOUT US</a></li>
+                    <li><a href="/service">SERVICES</a></li>
+                    <li>
+                        <a href="#">OTHERS</a>
+                        <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                        <ul class="htmlCss-sub-menu sub-menu">
+                            <li><a href="/blog">BLOG</a></li>
+                            <li><a href="/feature">FEATURE</a></li>
+                            <li><a href="/quote">FREE QUOTE</a></li>
+                            <li><a href="/team">TEAM</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact">CONTACT US</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <script src="navbar.js"></script>
+</body>
+
+</html>
