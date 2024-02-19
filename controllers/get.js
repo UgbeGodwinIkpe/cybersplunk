@@ -22,6 +22,8 @@ const webDevelopmentPage = (req, res) => { res.render('webdevelopment') }
     // Blog pages
 const blogPage = (req, res) => { res.render('blog') }
 const blogBehindTheScenes = (req, res) => { res.render('scenes') }
+const blogHumanElement = (req, res) => { res.render('human-element') }
+const blogThreatsPage = (req, res) => { res.render('threats') }
 
 // Export modules
 module.exports = {
@@ -41,4 +43,6 @@ module.exports = {
     devopsPage,
     webDevelopmentPage,
     blogBehindTheScenes,
+    blogHumanElement,
+    blogThreatsPage,
 }
