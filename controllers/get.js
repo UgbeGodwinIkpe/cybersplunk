@@ -178,6 +178,18 @@ const webDevelopmentPage = (req, res) => {
         // user: user
     });
 }
+const blogBehindTheScenes = (req, res) => {
+    // const user = req.query.user;
+    res.render('scenes', {
+        error: '',
+        msg: '',
+        fname: '',
+        email: '',
+        password: '',
+        phoneNumber: '',
+        // user: user
+    });
+}
 module.exports = {
     homePage,
     contactPage,
@@ -194,4 +206,5 @@ module.exports = {
     forensicPage,
     devopsPage,
     webDevelopmentPage,
+    blogBehindTheScenes,
 }
