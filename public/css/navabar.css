@@ -154,6 +154,10 @@ nav .navbar .links li:hover .js-sub-menu {
     display: none;
 }
 
+#mobile {
+    display: none;
+}
+
 @media (max-width:920px) {
     nav {
         top: 0;
@@ -171,6 +175,12 @@ nav .navbar .links li:hover .js-sub-menu {
     }
     nav .navbar .links li a {
         font-size: 15px;
+    }
+    #mobile {
+        display: block;
+    }
+    #desktop {
+        display: none;
     }
 }
 
