@@ -1,195 +1,29 @@
-const homePage = (req, res) => {
-    res.render('index');
-}
+// Home page
+const homePage = (req, res) => { res.render('index') }
+    // Contact page
+const contactPage = (req, res) => { res.render('contact') }
+    // About page
+const aboutPage = (req, res) => { res.render('about') }
+    // Team page
+const teamPage = (req, res) => { res.render('team') }
+    // Qoute page
+const quotePage = (req, res) => { res.render('quote') }
+    // Feature page
+const featurePage = (req, res) => { res.render('feature') }
+    // Service page
+const servicePage = (req, res) => { res.render('service') }
+const penetrationPage = (req, res) => { res.render('penetration') }
+const whiteboxTestingPage = (req, res) => { res.render('whitebox') }
+const blackboxTestingPage = (req, res) => { res.render('blackbox') }
+const networkSecurityPage = (req, res) => { res.render('network') }
+const forensicPage = (req, res) => { res.render('forensic') }
+const devopsPage = (req, res) => { res.render('devops') }
+const webDevelopmentPage = (req, res) => { res.render('webdevelopment') }
+    // Blog pages
+const blogPage = (req, res) => { res.render('blog') }
+const blogBehindTheScenes = (req, res) => { res.render('scenes') }
 
-
-const contactPage = (req, res) => {
-    // const user = req.query.user;
-    res.render('contact', {
-        error: '',
-        msg: '',
-        fname: '',
-        email: '',
-        password: '',
-        phoneNumber: ''
-            // user: user
-    });
-}
-const aboutPage = (req, res) => {
-    // const user = req.query.user;
-    res.render('about', {
-        error: '',
-        msg: '',
-        fname: '',
-        email: '',
-        password: '',
-        phoneNumber: '',
-        // user: user
-    });
-}
-
-const servicePage = (req, res) => {
-    // const user = req.query.user;
-    res.render('service', {
-        error: '',
-        msg: '',
-        fname: '',
-        email: '',
-        password: '',
-        phoneNumber: '',
-        // user: user
-    });
-}
-
-const teamPage = (req, res) => {
-    // const user = req.query.user;
-    res.render('team', {
-        error: '',
-        msg: '',
-        fname: '',
-        email: '',
-        password: '',
-        phoneNumber: '',
-        // user: user
-    });
-}
-
-const quotePage = (req, res) => {
-    // const user = req.query.user;
-    res.render('quote', {
-        error: '',
-        msg: '',
-        fname: '',
-        email: '',
-        password: '',
-        phoneNumber: '',
-        // user: user
-    });
-}
-
-const blogPage = (req, res) => {
-    // const user = req.query.user;
-    res.render('blog', {
-        error: '',
-        msg: '',
-        fname: '',
-        email: '',
-        password: '',
-        phoneNumber: '',
-        // user: user
-    });
-}
-
-const featurePage = (req, res) => {
-    // const user = req.query.user;
-    res.render('feature', {
-        error: '',
-        msg: '',
-        fname: '',
-        email: '',
-        password: '',
-        phoneNumber: '',
-        // user: user
-    });
-}
-
-const penetrationPage = (req, res) => {
-    // const user = req.query.user;
-    res.render('penetration', {
-        error: '',
-        msg: '',
-        fname: '',
-        email: '',
-        password: '',
-        phoneNumber: '',
-        // user: user
-    });
-}
-const whiteboxTestingPage = (req, res) => {
-    // const user = req.query.user;
-    res.render('whitebox', {
-        error: '',
-        msg: '',
-        fname: '',
-        email: '',
-        password: '',
-        phoneNumber: '',
-        // user: user
-    });
-}
-const blackboxTestingPage = (req, res) => {
-    // const user = req.query.user;
-    res.render('blackbox', {
-        error: '',
-        msg: '',
-        fname: '',
-        email: '',
-        password: '',
-        phoneNumber: '',
-        // user: user
-    });
-}
-const networkSecurityPage = (req, res) => {
-    // const user = req.query.user;
-    res.render('network', {
-        error: '',
-        msg: '',
-        fname: '',
-        email: '',
-        password: '',
-        phoneNumber: '',
-        // user: user
-    });
-}
-
-const forensicPage = (req, res) => {
-    // const user = req.query.user;
-    res.render('forensic', {
-        error: '',
-        msg: '',
-        fname: '',
-        email: '',
-        password: '',
-        phoneNumber: '',
-        // user: user
-    });
-}
-const devopsPage = (req, res) => {
-    // const user = req.query.user;
-    res.render('devops', {
-        error: '',
-        msg: '',
-        fname: '',
-        email: '',
-        password: '',
-        phoneNumber: '',
-        // user: user
-    });
-}
-const webDevelopmentPage = (req, res) => {
-    // const user = req.query.user;
-    res.render('webdevelopment', {
-        error: '',
-        msg: '',
-        fname: '',
-        email: '',
-        password: '',
-        phoneNumber: '',
-        // user: user
-    });
-}
-const blogBehindTheScenes = (req, res) => {
-    // const user = req.query.user;
-    res.render('scenes', {
-        error: '',
-        msg: '',
-        fname: '',
-        email: '',
-        password: '',
-        phoneNumber: '',
-        // user: user
-    });
-}
+// Export modules
 module.exports = {
     homePage,
     contactPage,

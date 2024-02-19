@@ -20,7 +20,7 @@ router.get('/network-security', getControllers.networkSecurityPage)
 router.get('/forensic', getControllers.forensicPage)
 router.get('/devops', getControllers.devopsPage)
 router.get('/web-development', getControllers.webDevelopmentPage);
-router.get('/blog-post/scenes', getControllers.blogBehindTheScenes);
+router.get('/blog-scenes', getControllers.blogBehindTheScenes);
 
 router.post('/register', postControllers.register);
 router.post('/login', postControllers.login);
