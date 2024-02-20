@@ -1,7 +1,7 @@
 {
-    "name": "cybersplunk",
+    "name": "Fortifyintel",
     "version": "1.0.0",
-    "description": "Cybersplunk is a cyber security consultancy firm that offers consultation services to businesses and company  to protect their data and finance.",
+    "description": "Fortifyintel is a cyber security consultancy firm that offers consultation services to businesses and company  to protect their data and finance.",
     "main": "app.js",
     "scripts": {
         "start": "node app.js",
