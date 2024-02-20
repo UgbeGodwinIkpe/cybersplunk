@@ -23,7 +23,8 @@ router.get('/web-development', getControllers.webDevelopmentPage);
 router.get('/blog-scenes', getControllers.blogBehindTheScenes);
 router.get('/blog-helement', getControllers.blogHumanElement);
 router.get('/blog-threats', getControllers.blogThreatsPage);
-router.get('/blog-demy', getControllers.blogDemyPage)
+router.get('/blog-demy', getControllers.blogDemyPage);
+router.get('/blog-ransomware', getControllers.blogRamsomeawarenessPage);
 
 router.post('/register', postControllers.register);
 router.post('/login', postControllers.login);
