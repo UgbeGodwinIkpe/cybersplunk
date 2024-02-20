@@ -22,7 +22,8 @@ router.get('/devops', getControllers.devopsPage)
 router.get('/web-development', getControllers.webDevelopmentPage);
 router.get('/blog-scenes', getControllers.blogBehindTheScenes);
 router.get('/blog-helement', getControllers.blogHumanElement);
-router.post('/blog-threats', getControllers.blogThreatsPage);
+router.get('/blog-threats', getControllers.blogThreatsPage);
+router.get('/blog-demy', getControllers.blogDemyPage)
 
 router.post('/register', postControllers.register);
 router.post('/login', postControllers.login);
