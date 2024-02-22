@@ -96,8 +96,8 @@ nav .navbar .links li .sub-menu {
     top: 70px;
     left: 0;
     line-height: 40px;
-    background: black;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    background: #052663;
+    box-shadow: 0 1px 2px #052663;
     border-radius: 0 0 4px 4px;
     display: none;
     z-index: 2;
@@ -114,7 +114,7 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 
 .navbar .links li .sub-menu a {
-    color: #052663 !important;
+    color: #FFFFFF !important;
     font-size: 15px;
     font-weight: 500;
 }
@@ -198,10 +198,10 @@ nav .navbar .links li:hover .js-sub-menu {
         display: block;
         max-width: 300px;
         width: 100%;
-        background: black;
+        background: #052663;
         line-height: 40px;
         padding: 20px;
-        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 5px 10px #052663;
         transition: all 0.5s ease;
         z-index: 1000;
     }
@@ -212,12 +212,12 @@ nav .navbar .links li:hover .js-sub-menu {
     }
     .sidebar-logo .logo-name {
         font-size: 35px;
-        color: #fd7e14;
+        color: #052663
     }
     .sidebar-logo i,
     .navbar .bx-menu {
         font-size: 40px;
-        color: #fd7e14;
+        color: #052663;
     }
     nav .navbar .links {
         display: block;
