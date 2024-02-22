@@ -1,10 +1,11 @@
 /********** Template CSS **********/
 
 :root {
-    --primary: orange;
+    --primary: #052663;
     --secondary: #F6F6F6;
     --light: #FFFFFF;
     --dark: #152440;
+    /*#052663;*/
 }
 
 
