@@ -190,6 +190,16 @@ nav .navbar .links li:hover .js-sub-menu {
         font-size: 15px;
         font-weight: 500;
     }
+    nav .navbar .links li .arrow {
+        /* background: red; */
+        height: 100%;
+        width: 22px;
+        line-height: 70px;
+        text-align: center;
+        display: inline-block;
+        color: #FFFFFF;
+        transition: all 0.3s ease;
+    }
 }
 
 @media (max-width:800px) {
